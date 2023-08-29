@@ -1,0 +1,8 @@
+node_modules
+.turbo
+.vercel
+yarn-error.log
+.npmrc
+out
+.DS_Store
+*.code-workspace

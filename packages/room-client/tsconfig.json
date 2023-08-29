@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "noEmit": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "noFallthroughCasesInSwitch": true,
+        "jsx": "preserve",
+        "isolatedModules": true,
+        "target": "es6",
+        "lib": ["es2021", "dom"],
+        "module": "commonjs"
+    }
+}

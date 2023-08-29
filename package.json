@@ -1,0 +1,37 @@
+{
+    "name": "livekit-bundle-failure",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {},
+    "workspaces": {
+        "packages": [
+            "packages/*",
+            "apps/*"
+        ],
+        "nohoist": [
+            "**/*react-native",
+            "**/*react-native/**",
+            "**/@react-native-*",
+            "**/@react-native-*/**",
+            "**/react-native-*",
+            "**/react-native-*/**",
+            "**/*react-navigation/*",
+            "**/*react-navigation/*/**",
+            "**/expo",
+            "**/expo/**",
+            "**/@expo",
+            "**/@expo/**",
+            "**/expo-*",
+            "**/expo-*/**",
+            "**/*expo-*",
+            "**/*expo-*/**",
+            "**/metro-*",
+            "**/metro-*/**",
+            "mobile/rn-*",
+            "mobile/rn-*/**"
+        ]
+    },
+    "devDependencies": {
+        "typescript": "^5.1.6"
+    }
+}

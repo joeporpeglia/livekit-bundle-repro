@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Playback",
+    "slug": "playback",
+    "version": "1.0.0",
+    "owner": "playback",
+    "scheme": "playback",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.example",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.example",
+      "versionCode": 1
+    }
+  }
+}
