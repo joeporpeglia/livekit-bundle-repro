@@ -5,33 +5,7 @@
     "scripts": {},
     "workspaces": {
         "packages": [
-            "packages/*",
             "apps/*"
-        ],
-        "nohoist": [
-            "**/*react-native",
-            "**/*react-native/**",
-            "**/@react-native-*",
-            "**/@react-native-*/**",
-            "**/react-native-*",
-            "**/react-native-*/**",
-            "**/*react-navigation/*",
-            "**/*react-navigation/*/**",
-            "**/expo",
-            "**/expo/**",
-            "**/@expo",
-            "**/@expo/**",
-            "**/expo-*",
-            "**/expo-*/**",
-            "**/*expo-*",
-            "**/*expo-*/**",
-            "**/metro-*",
-            "**/metro-*/**",
-            "mobile/rn-*",
-            "mobile/rn-*/**"
         ]
-    },
-    "devDependencies": {
-        "typescript": "^5.1.6"
     }
 }

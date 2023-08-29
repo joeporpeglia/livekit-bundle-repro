@@ -1,7 +1,7 @@
 import { registerRootComponent } from 'expo';
 import React from 'react';
 import { View, Text } from 'react-native';
-import * as RoomClient from '@internal/room-client';
+import * as Livekit from 'livekit-client';
 
 function AppRoot() {
     return (

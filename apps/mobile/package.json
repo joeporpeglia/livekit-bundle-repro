@@ -14,19 +14,17 @@
     "prebuild": "expo prebuild --clean --no-install"
   },
   "dependencies": {
-    "@internal/room-client": "*",
-    "@types/react": "~18.2.14",
-    "expo": "^49.0.8",
     "expo-dev-client": "~2.4.8",
     "expo-screen-orientation": "~6.0.5",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.6.0",
     "expo-system-ui": "~2.4.0",
-    "react": "18.2.0",
-    "react-native": "0.72.4"
+    "expo": "^49.0.8",
+    "livekit-client": "1.13.0",
+    "react-native": "0.72.4",
+    "react": "18.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.11",
-    "typescript": "^5.1.6"
+    "@babel/core": "^7.22.11"
   }
 }

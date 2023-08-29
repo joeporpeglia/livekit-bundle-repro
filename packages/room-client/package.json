@@ -1,7 +1,0 @@
-{
-    "name": "@internal/room-client",
-    "version": "0.0.1",
-    "dependencies": {
-        "livekit-client": "1.13.0"
-    }
-}
